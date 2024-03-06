@@ -236,7 +236,7 @@ footer {
     border-color: transparent;
 }
 
-@media(min-width:768px) {
+@media(min-width:992px) {
     .custom-navbar {
         padding: 20px 0;
         border-bottom: 0;
@@ -709,7 +709,12 @@ footer {
     color: #ffffff;
 }
 
-
+.additional-wrapper {
+    margin-top: 100px;
+    @media screen {
+        margin-top: 50px;
+    }
+}
 
 /*---------------------------------------
    Responsive styles            
@@ -740,7 +745,7 @@ footer {
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
 
   .custom-navbar .navbar-brand {
     line-height: 20px;
